@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#ffffff">
+  <title>แบบทดสอบ</title>
+  <script src="api-config.js?v=20260825-3"></script>
+  <style>*{box-sizing:border-box}html,body{width:100%;height:100%;margin:0;overflow:hidden;background:#fff}.app-frame{display:block;width:100%;height:100%;border:0}</style>
+</head>
+<body>
+  <iframe id="quizFrame" class="app-frame" title="ระบบแบบทดสอบ" allow="clipboard-read; clipboard-write" allowfullscreen></iframe>
+  <script>document.getElementById('quizFrame').src=window.APP_CONFIG.QUIZ_WEB_APP_URL||'about:blank';</script>
+</body>
+</html>
